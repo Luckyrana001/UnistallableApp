@@ -13,7 +13,7 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
-public class DevicePolicyDemoActivity extends Activity implements
+public class DevicePolicyActivity extends Activity implements
 		OnCheckedChangeListener {
 	static final String TAG = "DevicePolicyDemoActivity";
 	static final int ACTIVATION_REQUEST = 47; // identifies our request id
